@@ -1,10 +1,5 @@
 # yvesniyo/intouch-sms
 
-<!--
-TODO: Make sure the following URLs are correct and working for your project.
-      Then, remove these comments to display the badges, giving users a quick
-      overview of your package.
-
 [![Source Code][badge-source]][source]
 [![Latest Version][badge-release]][packagist]
 [![Software License][badge-license]][license]
@@ -20,7 +15,6 @@ TODO: Make sure the following URLs are correct and working for your project.
 [badge-build]: https://img.shields.io/travis/yvesniyo/intouch-sms/master.svg?style=flat-square
 [badge-coverage]: https://img.shields.io/coveralls/github/yvesniyo/intouch-sms/master.svg?style=flat-square
 [badge-downloads]: https://img.shields.io/packagist/dt/yvesniyo/intouch-sms.svg?style=flat-square&colorB=mediumvioletred
-
 [source]: https://github.com/yvesniyo/intouch-sms
 [packagist]: https://packagist.org/packages/yvesniyo/intouch-sms
 [license]: https://github.com/yvesniyo/intouch-sms/blob/master/LICENSE
@@ -28,7 +22,6 @@ TODO: Make sure the following URLs are correct and working for your project.
 [build]: https://travis-ci.org/yvesniyo/intouch-sms
 [coverage]: https://coveralls.io/r/yvesniyo/intouch-sms?branch=master
 [downloads]: https://packagist.org/packages/yvesniyo/intouch-sms
--->
 
 This is a php library to help developers include sms service, with IntouchSms gateway from RWANDA
 

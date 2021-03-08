@@ -7,6 +7,8 @@ class Sms extends SmsAbstract
     public function __construct()
     {
         parent::__construct();
+
+        //
     }
 
     public function configSender(): string

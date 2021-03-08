@@ -16,7 +16,6 @@ class SendSmsJob
     public static function now(SmsAbstract $sms)
     {
 
-        return $sms->toArray();
         $client = new Client();
         $res = $client->request('POST', $sms->getApiUrlQuery(), [
             'auth' => [$sms->getUsername(), $sms->getPassword(), "digest"],

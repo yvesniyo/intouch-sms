@@ -226,7 +226,6 @@ abstract class SmsAbstract
             "dlrurl" => $this->getCallBackUrl(),
         ];
         $datas = http_build_query($datas);
-        echo "\n\n " . $datas . " \n";
         return $this->apiUrl . "?" . $datas;
     }
 

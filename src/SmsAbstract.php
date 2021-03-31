@@ -219,12 +219,15 @@ abstract class SmsAbstract implements Stringable
     public function getApiUrlQuery()
     {
         $datas = [
+            "username" => $this->getUsername(),
+            "password" => $this->getPassword(),
             "sender" => $this->getSender(),
             "message" => $this->getMessage(),
             "recipients" => $this->getRecipients(),
             "dlrurl" => $this->getCallBackUrl(),
         ];
         $datas = http_build_query($datas);
+        echo "\n\n " . $datas . " \n";
         return $this->apiUrl . "?" . $datas;
     }
 

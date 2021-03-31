@@ -4,9 +4,8 @@
 namespace Yvesniyo\IntouchSms;
 
 use Yvesniyo\IntouchSms\SendSmsJob;
-use Stringable;
 
-abstract class SmsAbstract implements Stringable
+abstract class SmsAbstract
 {
 
     private $sender, $username, $message, $password, $recipients, $callBackUrl;

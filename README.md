@@ -91,6 +91,14 @@ class Sms extends SmsAbstract
     {
         return "";
     }
+
+
+    public static function QuickSend($recipients, String $message, String $senderId = null)
+    {
+        $sms = new Sms();
+        $sms->requiredData($recipients, $message, $senderId);
+        return $sms->send();
+    }
 }
 
 ```
